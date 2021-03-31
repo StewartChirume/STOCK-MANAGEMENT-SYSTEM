@@ -1,0 +1,52 @@
+.secondMainSection {
+    margin-bottom: 20px;
+}
+
+.div4FileInput {
+    border-style: solid;
+    max-height: 250px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 250px;
+}
+
+input {
+    width: 100%;
+}
+
+header {
+    height: 660px;
+}
+
+.section4MainSection {
+    color:black;
+    height: 500px;
+    background-color: white;
+    margin-bottom: -50px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    opacity: 5;
+}
+
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.mainDiv4AddStock section, #root {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+
+#id4productPrice {
+    display: flex;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 768px) {
+    .mainDiv4AddStock {
+        padding-top: 50px;
+    }
+}
